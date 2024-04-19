@@ -17,7 +17,7 @@ function Landing() {
         <Header name ={data.state.user}/>
     
         {/* Card */}
-        <div className="flex justify-between gap-7 ">
+        <div className="flex justify-between gap-7 flex-wrap ">
          <Card bgcolor={"#8272DA"} title={"23"} subtitle={"chennai"} />
          <Card bgcolor={"#FD6663"} title={"20 December"} subtitle={"14:02:34"}/>
          <Card bgcolor={"#FCA201"} title={"built Using"} subtitle={"React"} />

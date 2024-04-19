@@ -4,7 +4,7 @@ function Card(props) {
   return (
    <>
    
-   <div style={{backgroundColor: props.bgcolor}} className="px-10 py-5 border rounded-md flex-grow my-5 flex-wrap">
+   <div style={{backgroundColor: props.bgcolor}} className="px-10 py-5 border rounded-md text-center my-5 flex-grow   ">
       <h1 className="font-medium text-2xl">{props.title}</h1>
       <p>{props.subtitle}</p>
       </div>
